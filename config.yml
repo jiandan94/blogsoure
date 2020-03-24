@@ -1,6 +1,6 @@
-baseURL: https://statlearning.github.io/
+baseURL: https://jiandan94.github.io/
 theme: hugo-theme-pure-master
-title: KAI's HomePage
+title: KAI-StatLearning
 defaultContentLanguage: zh  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
@@ -104,10 +104,10 @@ params:
     social:
       links:
         # github: https://github.com/xiaoheiAh
-        weibo: http://weibo.com/5194522812
+        # weibo: http://weibo.com/5194522812
         # twitter: https://twitter.com/
         # facebook: /
-        mail: qkai94@163.com
+        # email: qkai94@163.com
         rss: /index.xml
       link_tooltip: true # enable the social link tooltip, options: true, false
   # Site
@@ -130,7 +130,7 @@ params:
 
   # Comment
   comment:
-    type: disqus # type disqus/gitalk/valine 启用哪种评论系统
+    type: valine # type disqus/gitalk/valine 启用哪种评论系统
     disqus: your_disqus_name # enter disqus shortname here
     gitalk: # gitalk. https://gitalk.github.io/
       owner: jiandan94 #必须. GitHub repository 所有者，可以是个人或者组织。
@@ -139,11 +139,11 @@ params:
       ClientID: 9387142c6a1d9e159064 #必须. GitHub Application Client ID.
       ClientSecret: be941c277a754df0d533a93ae8a0e38f65532d18 #必须. GitHub Application Client Secret.
     valine: # Valine. https://valine.js.org
-      appid: # your leancloud application appid
-      appkey: # your leancloud application appkey
-      notify: # mail notifier , https://github.com/xCss/Valine/wiki
+      appid: lUCxYn9g9w2PaI6fpfF3qVqC-gzGzoHsz # your leancloud application appid
+      appkey: UzvlhF9DfF5SB6WKO5N2tP4i # your leancloud application appkey
+      notify: false # mail notifier , https://github.com/xCss/Valine/wiki
       verify: # Verification code
-      placeholder: enjoy~ # comment box placeholder
+      placeholder: 欢迎留言~ # comment box placeholder
       avatar: mm # gravatar style
       meta: nick,mail # custom comment header
       pageSize: 10 # pagination size
