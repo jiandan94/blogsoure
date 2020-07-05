@@ -1,6 +1,6 @@
 baseURL: https://jiandan94.github.io/
 theme: hugo-theme-pure-master
-title: KAI-StatLearning
+title: KAI | 齐凯
 defaultContentLanguage: zh  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
@@ -64,7 +64,7 @@ menu:
 
 
 params:
-  since: 2019
+  since: 2012
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   # the directory under content folder that you want to render
@@ -96,8 +96,8 @@ params:
     avatar: qkai.jpg
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: 齐 凯
-    author_title: 统计学在读博士
-    author_description: 科研狗, 旅游, 烹饪
+    author_title: 统计学博士
+    author_description: 科研狗, 诗词, 书法, 烹饪
     location: 重庆, 中国
     follow: https://www.researchgate.net/profile/Kai_Qi7
     # Social Links
@@ -107,7 +107,7 @@ params:
         # weibo: http://weibo.com/5194522812
         # twitter: https://twitter.com/
         # facebook: /
-        # email: qkai94@163.com
+        email: mailto:qkai94@163.com
         rss: /index.xml
       link_tooltip: true # enable the social link tooltip, options: true, false
   # Site
@@ -119,7 +119,7 @@ params:
       url: favicon.ico
     title: Kai # 页面title
     favicon: favicon.ico
-    board: <p>Welcome to StatLeaning!</p> # 公告牌
+    board: <p>欢迎来到我的博客!</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
@@ -131,13 +131,13 @@ params:
   # Comment
   comment:
     type: valine # type disqus/gitalk/valine 启用哪种评论系统
-    disqus: your_disqus_name # enter disqus shortname here
+    disqus:  # enter disqus shortname here
     gitalk: # gitalk. https://gitalk.github.io/
-      owner: jiandan94 #必须. GitHub repository 所有者，可以是个人或者组织。
-      admin: jiandan94 #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-      repo:  statlearning.github.io #必须. GitHub repository.
-      ClientID: 9387142c6a1d9e159064 #必须. GitHub Application Client ID.
-      ClientSecret: be941c277a754df0d533a93ae8a0e38f65532d18 #必须. GitHub Application Client Secret.
+      owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
+      admin:  #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+      repo:  #必须. GitHub repository.
+      ClientID:  #必须. GitHub Application Client ID.
+      ClientSecret: #必须. GitHub Application Client Secret.
     valine: # Valine. https://valine.js.org
       appid: lUCxYn9g9w2PaI6fpfF3qVqC-gzGzoHsz # your leancloud application appid
       appkey: UzvlhF9DfF5SB6WKO5N2tP4i # your leancloud application appkey
@@ -145,7 +145,7 @@ params:
       verify: # Verification code
       placeholder: 欢迎留言~ # comment box placeholder
       avatar: mm # gravatar style
-      meta: nick,mail # custom comment header
+      meta: nick # custom comment header
       pageSize: 10 # pagination size
       visitor: false # Article reading statistic https://valine.js.org/visitor.html
 
