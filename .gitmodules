@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/jiandan94/statlearning.github.io.git
+	url = git@github.com:jiandan94/jiandan94.github.io.git
 	branch = master
